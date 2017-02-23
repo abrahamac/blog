@@ -1,0 +1,52 @@
+current directory: /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.17/ext/ffi_c
+/home/aswin/.rvm/rubies/ruby-2.2.5/bin/ruby -r ./siteconf20170222-19866-1sity3s.rb extconf.rb
+checking for ffi_call() in -lffi... yes
+checking for ffi_prep_closure()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... no
+creating extconf.h
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/extensions/x86_64-linux/2.2.0/ffi-1.9.17/mkmf.log
+
+current directory: /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.17/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.17/ext/ffi_c
+make "DESTDIR="
+compiling ffi.c
+compiling FunctionInfo.c
+compiling Struct.c
+compiling StructByValue.c
+compiling Call.c
+compiling ClosurePool.c
+compiling AbstractMemory.c
+compiling StructLayout.c
+compiling DataConverter.c
+compiling Function.c
+compiling StructByReference.c
+compiling Platform.c
+compiling ArrayType.c
+compiling MethodHandle.c
+compiling MemoryPointer.c
+compiling LastError.c
+compiling Types.c
+compiling Type.c
+compiling MappedType.c
+compiling Pointer.c
+compiling Thread.c
+compiling LongDouble.c
+compiling DynamicLibrary.c
+compiling Variadic.c
+compiling Buffer.c
+linking shared-object ffi_c.so
+
+current directory: /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/gems/ffi-1.9.17/ext/ffi_c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20170222-19866-3akknc

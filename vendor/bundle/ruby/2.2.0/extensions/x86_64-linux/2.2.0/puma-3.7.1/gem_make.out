@@ -1,0 +1,32 @@
+current directory: /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/gems/puma-3.7.1/ext/puma_http11
+/home/aswin/.rvm/rubies/ruby-2.2.5/bin/ruby -r ./siteconf20170222-19866-457w5h.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/extensions/x86_64-linux/2.2.0/puma-3.7.1/mkmf.log
+
+current directory: /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/gems/puma-3.7.1/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/gems/puma-3.7.1/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+ext/puma_http11/http11_parser.rl: In function 'puma_parser_execute':
+ext/puma_http11/http11_parser.rl:111: warning: comparison between signed and unsigned integer expressions
+compiling puma_http11.c
+compiling mini_ssl.c
+mini_ssl.c: In function 'engine_init_server':
+mini_ssl.c:153: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c:158: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c:180: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c:184: warning: ISO C90 forbids mixed declarations and code
+compiling io_buffer.c
+linking shared-object puma/puma_http11.so
+
+current directory: /apps/rails_apps/blog/vendor/bundle/ruby/2.2.0/gems/puma-3.7.1/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20170222-19866-dooci3/puma
